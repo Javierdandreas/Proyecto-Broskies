@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="shortcut icon" href="html/media/favicon-32x32.png">
-    <script src="https://kit.fontawesome.com/d68307c7bc.js" crossorigin="anonymous"></script> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Tazas Personalizadas Broskies</title>
 </head>
 <body>
     <header>
         <div>
-             <img src="./html/media/Banner4.0.png" alt="banner de Broskies" class="Banner"> 
+            <img src="./html/media/Banner4.0.png" alt="banner de Broskies" class="Banner" data-aos="fade-left" data-aos-duration="7000"> 
         </div>
         <nav> 
             <ul class="ulhome">
@@ -29,17 +29,17 @@
     <main>
         <div id="grilla_home">
             <div class="hijo">
-                <img src="html/media/tazas/polimero2.jpeg" alt="Taza de del dia de la madre" class="img_home">
+                <img src="html/media/tazas/polimero2.jpeg" alt="Taza de del dia de la madre" class="img_home" data-aos="fade-left">
                 <h3>Taza de Polimero o Plástico: </h3>
                 <p>$850</p>
             </div>
             <div class="hijo">
-                <img src="html/media/tazas/rojo1.jpeg" alt="Taza de Independiente" class="img_home">
+                <img src="html/media/tazas/rojo1.jpeg" alt="Taza de Independiente" class="img_home" data-aos="fade-left">
                 <h3>Taza de Ceramica: </h3>
                 <p>$1250</p>
             </div>
             <div class="hijo">
-                <iframe width="320" height="500" src="https://www.youtube.com/embed/udHLnijEK4M" title="mágica sin audio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  class="img_home"></iframe>
+                <iframe width="320" height="500" src="https://www.youtube.com/embed/udHLnijEK4M" title="mágica sin audio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  class="img_home" data-aos="fade-left"></iframe>
                 <h3>Taza Magica:</h3>
                 <p>$2250</p>
             </div>
@@ -100,6 +100,10 @@
         </div>
     </footer>
     
-
+    <script src="https://kit.fontawesome.com/d68307c7bc.js" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
