@@ -30,6 +30,9 @@ body{
         width: auto;
         height: auto;
     }
+    .title-home{
+        font-size: 25px;
+    }
     footer{
         display: flex;
         flex-direction: row;
@@ -38,12 +41,11 @@ body{
     }
     a{
         color: #785B46;
-        padding-left: 20px;
+        padding-left: 15px;
     }
     a:hover{
         color: #785B46;
     }
-    
     footer{
         width: 100%;
         background-color: #ede1d2;
@@ -63,7 +65,27 @@ body{
         margin: 0;
         padding: 0;
     }
-
+    
+    @media only screen and (max-width: 600px){
+        .col-sm-4{
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        #iframe_home{
+            width: 513px;
+            height: 537px;
+        }
+        .col-sm-6{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .mapa{
+           width: 100%;
+           height: 500px;
+        }
+    }
 
 /*Código de Home*/
     .hijo{
@@ -194,10 +216,7 @@ body{
     .mapa{
         width: 100%;
         height: 100%;
-        object-fit: cover;
     }
-    #grid_ent{
-        margin-bottom: 0;
-    }
+    
 
    
