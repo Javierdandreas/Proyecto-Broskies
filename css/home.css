@@ -67,6 +67,9 @@ body{
         width: 100%;
         height: 100%;
     }
+    #boton_header{
+        background-color: #785B46;
+    }
     
     @media only screen and (max-width: 600px){
         .col-xs-4{
