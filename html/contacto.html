@@ -45,54 +45,73 @@
     </header>
 
     <main>
-        <div id="grilla_contact">
-            <div class="contact">
-                <h3>Contacto</h3>
-                <ul class="list_contact">
-                    <li>+54 9 11-2386-1731</li>
-                    <li>Broskiescompanyar@gmail.com</li>
-                    <li> <a href="https://www.instagram.com/broskiescompany/" target="_blank">Broskiescompany </a></li>
-                </ul>
-            </div>
-
-            <div class="horario">
-                <h3>Horario de Atención</h3>
-                <ul class="list_horario">
-                    <li>Lunes a Viernes:
-                        De 8hs a 18hs 
-                    </li>
-                    <li>Sábados: 
-                        De 9hs a 14hs
-                    </li> 
-                </ul>
-            </div>
-
-            <div class="insta">
-                <iframe src="https://www.instagram.com/p/Cjse84MLZ4B/?utm_source=ig_web_copy_link" frameborder="0" width="100%" height="100%" ></iframe>                    
-            </div>
-            
-            <div class="formulario">
-                <h3>Si tienes alguna duda, déjala aquí</h3>
-                <form>
-                    <fieldset class="formu">
-                        <input type="text" placeholder="Nombre" class="A"> 
-                        <input type="mail" placeholder="Mail" class="AA"> 
-                        <input type="number" placeholder="Teléfono" class="AAA"> 
-                        <input type="textarea" placeholder="Consulta" class="AAAA"> 
-                        <input type="submit" class="AAAAA">
-                    </fieldset>
-                </form>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-lg-4">
             <div>
-        </div>
+              <h4>Contacto</h4>
+              <ul class="list_contact">
+                <li>+54 9 11-2386-1731</li>
+                <li>Broskiescompanyar@gmail.com</li>
+                <li><a href="https://www.instagram.com/broskiescompany/" target="_blank">Broskiescompany</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Horario de Atención</h4>
+              <ul class="list_contact">
+                <li>Lunes a Viernes:
+                    De 8hs a 18hs </li>
+                <li>Sábados: 
+                    De 9hs a 14hs</li> 
+              </ul>
+            </div>
+            <div class="formulario">
+              <form>
+                <div>
+                    <label class="titulo_form" for="">Formulario de contacto</label>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="form-floating" class="items_form">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="nombre">
+                        <label for="floatingInputGrid">Nombre y Apellido</label>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="form-floating" class="items_form">
+                        <input type="number" class="form-control" id="floatingInputGrid" placeholder="numero">
+                        <label for="floatingInputGrid">Numero de telefono</label>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="form-floating" class="items_form">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="e-mail">
+                        <label for="floatingInputGrid">E-mail</label>
+                      </div>
+                  </div>
+                </div>
+                <div class="form-floating" class="items_form">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 170px; width: 100%; margin-bottom: 15px;"></textarea>
+                    <label for="floatingTextarea2" class="name_form">Escribe aquí tu consulta</label>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+         <div class="col-xs-8 col-lg-8">
+          <img src="media/ig.jpeg" alt="ig_broskies" class="img_con">
+         </div>
     </main>
     
     <footer>
         <div class="footer">
-            <a href=""><i class="bi bi-telephone-fill"></i></a>
-            <a href=""><i class="bi bi-whatsapp"></i></a>
-            <a href=""><i class="bi bi-coin"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-envelope-at"></i></a>
+            <a href=""><i class="bi bi-telephone-fill" style="font-size: 20px;"></i></a>
+            <a href=""><i class="bi bi-whatsapp" style="font-size: 20px;"></i></a>
+            <a href=""><i class="bi bi-coin" style="font-size: 20px;"></i></a>
+            <a href=""><i class="bi bi-instagram" style="font-size: 20px;"></i></a>
+            <a href=""><i class="bi bi-envelope-at" style="font-size: 20px;"></i></a>
         </div>
         <div class="copyright">
             <p><b>BroskiesCompany © 2022.</b> Todos los derechos reservados.</p>
