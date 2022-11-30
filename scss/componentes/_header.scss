@@ -1,0 +1,31 @@
+@import "../colores/colores";
+
+/* Código de Header y Footer*/
+header {
+    background-color: $HyF_color;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-link {
+    font-size: 17px;
+    margin: 25px;
+}
+
+#icon_nav {
+    margin-right: 3px;
+}
+
+.Banner {
+    width: auto;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+.title-home {
+    font-size: 25px;
+}
+
+#boton_header{
+    background-color: $boton_color;
+}

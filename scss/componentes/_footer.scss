@@ -1,0 +1,34 @@
+@import "../colores/colores";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    width: 100%;
+    background-color: $HyF_color;
+}
+
+a {
+    color: #785B46;
+    padding-left: 15px;
+}
+
+a:hover {
+    color: #785B46;
+}
+
+.row {
+    margin-bottom: 40px;
+    padding: 1%;
+    justify-content: baseline;
+}
+
+h4 {
+    margin-top: 7px;
+}
+
+#h4ifr {
+    margin: 0;
+    padding: 0;
+}
