@@ -12,7 +12,7 @@ header {
 }
 
 #icon_nav {
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .Banner {
@@ -40,6 +40,18 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 6px;
+}
+
+/*Código Sobre nosotros*/
+.img_sn {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.cajaa {
+  padding-bottom: 50px;
 }
 
 /* Código de Galería Tazas-Modelos*/
@@ -48,26 +60,17 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 6px;
 }
 
 .sub_taza {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
   margin-top: 10px;
 }
 
-.col-sm-4 {
-  padding-bottom: 50px;
-}
-
-/*Código Sobre nosotros*/
-.img_sn {
-  width: 100%;
-  height: 100%;
-}
-
-.cajaa {
+.img_mod {
   padding-bottom: 50px;
 }
 
@@ -79,6 +82,7 @@ header {
 .formulario {
   background-color: #ede1d2;
   border-radius: 6px;
+  padding: 20px 20px 20px 20px;
 }
 
 .A {
@@ -89,21 +93,13 @@ header {
 .img_con {
   width: 100%;
   height: 100%;
+  padding-top: 10px;
   border-radius: 6px;
-  padding-top: 15px;
 }
 
 /*Código de Entrega*/
 .list_entrega {
   list-style-type: none;
-}
-
-.formulario {
-  padding: 25px 25px 25px 25px;
-}
-
-.button {
-  padding-bottom: 10px;
 }
 
 .title {
@@ -115,12 +111,14 @@ header {
 .mapa {
   width: 100%;
   height: 100%;
+  border-radius: 6px;
 }
 
 /*Código Logros*/
 .img_logros {
   height: 100%;
   width: 100%;
+  border-radius: 6px;
 }
 
 footer {
