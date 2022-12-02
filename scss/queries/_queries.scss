@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    .col-xs-4 {
+    #img_mod{
         margin-bottom: 50px;
     }
 
@@ -20,5 +20,10 @@
     .img_home {
         height: 100%;
         width: 100%;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    #img_mod{
+        margin-bottom: 50px;
     }
 }
