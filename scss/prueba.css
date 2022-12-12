@@ -36,15 +36,12 @@ header {
 }
 
 .img_home {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 6px;
 }
 
 /*Código Sobre nosotros*/
-.img_sn {
+.img_sn, .img_logros, .mapa, .img_con, .tazas, .img_home {
   width: 100%;
   height: 100%;
   border-radius: 6px;
@@ -56,11 +53,8 @@ header {
 
 /* Código de Galería Tazas-Modelos*/
 .tazas {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 6px;
 }
 
 .sub_taza {
@@ -91,10 +85,18 @@ header {
 }
 
 .img_con {
-  width: 100%;
-  height: 100%;
   padding-top: 10px;
-  border-radius: 6px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 1.5px solid #785B46;
+}
+
+.btn:hover {
+  background-color: #785B46;
+  color: white;
 }
 
 /*Código de Entrega*/
@@ -108,19 +110,7 @@ header {
   font-size: 20px;
 }
 
-.mapa {
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-}
-
 /*Código Logros*/
-.img_logros {
-  height: 100%;
-  width: 100%;
-  border-radius: 6px;
-}
-
 footer {
   display: flex;
   flex-direction: row;
