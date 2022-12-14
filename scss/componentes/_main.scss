@@ -46,8 +46,20 @@
 
 
 /*Código Contacto*/
+.titulo_con{
+    font-size: 35px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .list_contact {
     list-style-type: none;
+    @include sizes(25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .formulario {
     background-color: $HyF_color;
@@ -76,13 +88,16 @@
 
 
 /*Código de Entrega*/
+#entrega{
+    font-size: 25px;
+}
 .list_entrega {
     list-style-type: none;
 }
 .title {
     padding-top: 10px;
     padding-bottom: 10px;
-    @include sizes(20px);
+    @include sizes(30px);
 }
 .mapa {
     @extend .img_sn;
